@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a demo portfolio page">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>PERSONAL PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="icon.png" class="cover-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="welcome-bg-videobox">
+        <video autoplay muted loop plays-inline id="myVideo">
+            <source src="bg1.mp4" type="video/mp4">
+        </video>
+    </div>
+    <navbar id="navbar">
+        <div class="logo-div"></div>
+        <div class="nav-links">
+            <a href="#welcome-section">
+                <p>About</p>
+            </a>
+            <a href="#projects">
+                <p>Work</p>
+            </a>
+            <a href="#contact">
+                <p>Contact</p>
+            </a>
+        </div>
+    </navbar>
+
+    <section class="welcome big-box" id="welcome-section">
+        <h1 class="special-gothic-expanded-one-regular">DEMO PORTFOLIO</h1>
+        <h3 class="special-gothic-expanded-one-regular lighten">for web developers</h3>
+        <i class="fa-solid fa-angle-down" style="margin-top: 10px; opacity:0.5;"></i>
+        <i class="fa-solid fa-angle-down" style="margin-top: -10px; opacity: 0.5;"></i>
+    </section>
+
+    <section id="projects" class="hero-section big-box">
+        <!-- NOW STYLING FOREGROUND -->
+
+        <div class="hero-foreground">
+            <h1 class="special-gothic-expanded-one-regular gap1">PROJECT GALLERY (collection of previous FCC tasks)</h1>
+
+            <div class="hero-gallery">
+                <container class="card" id="project-tile">
+                    <div class="tile-cover1 tiles"><a href="https://youtu.be/xvFZjo5PgG0?si=dA7XPQNmeQ0qaUVY" target="_blank"><div class="tribute-link"></div></a></div>
+                    <div class="tile-label1 labels"><a href="https://youtu.be/xvFZjo5PgG0?si=dA7XPQNmeQ0qaUVY" target="_blank"><p>TECH DOC PAGE</p></a></div>
+                </container>
+                <container class="card" id="project-tile">
+                    <div class="tile-cover2 tiles"><a  href="https://nawshcode.github.io/tribute-page/" target="_blank"><div class="tribute-link"></div></a></div>
+                    <div class="tile-label2 labels"><a href="https://nawshcode.github.io/tribute-page/" target="_blank"><p>TRIBUTE PAGE</p></a></div>
+                </container>
+    
+                <container class="card" id="project-tile">
+                    <div class="tile-cover3 tiles"><a href="https://youtu.be/xvFZjo5PgG0?si=dA7XPQNmeQ0qaUVY" target="_blank"><div class="tribute-link"></div></div>
+                    <div class="tile-label3 labels"><a href="https://youtu.be/xvFZjo5PgG0?si=dA7XPQNmeQ0qaUVY" target="_blank"><p>PRODUCT LANDING PAGE</p></a></div>
+                </container>
+            </div>
+            <button class="gap2"><a href="https://codepen.io/FreeCodeCamp/" target="_blank">See All</a></button>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="fcc-card">
+            <div class="icon1-gmail ball1"><a href="https://www.freecodecamp.org/nawshcode" target="_blank"><div class="tribute-link"></div></a></div>
+            <a href="https://www.freecodecamp.org/nawshcode" target="_blank"><h2 style="color: white" class="up">FCC Profile</h2></a>
+        </div>
+        <div class="github-card">
+            <div class="icon2-github ball2"><a href="https://github.com/nawshcode" target="_blank"><div class="tribute-link"></div></a></div>
+            <a href="https://github.com/nawshcode" target="_blank"><h2 style="color: white" class="down">Github</h2></a>
+        </div>
+    </section>
+
+    <footer>
+        <p style="color: white">**This is a fake portfolio. All projects shown are personal, created solely for learning HTML and CSS through <a href="https://www.freecodecamp.org/" target="_blank" class="underline">freeCodeCamp</a> tutorials—not for distribution. </p>
+    </footer>
+
+</body>
+</html>
