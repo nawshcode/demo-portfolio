@@ -427,6 +427,7 @@ footer{
         z-index: 2;
         margin-bottom: 100px;
         scale: 1;
+        width: 90vw;
     }
     .card{
         height: 80vh;
